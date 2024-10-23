@@ -49,7 +49,9 @@
 ## Problem 1 ##
 #Please write a script that: 
 # - Asks for the user's name and then prints it twice, on two consecutive lines.
-
+name = input("Hi what is your name?")
+print(f"{name}is a cool name!")
+print(f"Hi {name}")
 
 
 
@@ -59,7 +61,8 @@
 # - Asks for the user's name
 # - Prints it out twice on a single line so that there is an exclamation mark at the beginning of the line, 
 # - another between the two names and a third one at the end of the line.
-
+name = input("What is your name? ")
+print(f"!{name}!{name} is coool!!!!!!!!!")
 
 ## Problem 3 ##
 #Please write a script that: 
@@ -70,12 +73,23 @@
 #   - Last name: Sanders
 #   - Street address: 91 Station Road
 #   - City and postal code: Folsom CA, 95630
+firstname = input("What is your name?")
+lastname = input("What is your last name?")
+street = input("What is your street address?")
+city_postal = input("What is your city and postal code?")
+print(f"First name:", firstname)
+print(f"Last name:", lastname)
+print(f"Street:", street)
+print(f"City and Postal Code:", city_postal)
 
 ## Problem 4 ##
 #Please write a script that: 
 # - Asks for 3 words 
 # - Puts the words together with dashes and prints that out
-
+x1 = input("Can you give me a word?")
+x2 = input("Can you give me another word?")
+x3 = input("Can you give me another word?")
+print(f"{x1}/{x2}/{x3}")
 
 ## Problem 5 ##
 #Please write a script that: 
@@ -88,3 +102,6 @@
 #Mary is a valiant knight, born in the year 1572. 
 #One morning Mary woke up to an awful racket: a dragon was approaching the village. 
 #Only Mary could save the village's residents.
+name1 = input("What is the name?")
+year = input("What is the year?")
+print(f"{name1} is an panda born in {year} he was a brave warrior and defeated many villans. One day he woke up an became the dragon warrior. ")
